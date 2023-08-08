@@ -1,0 +1,81 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.hide-scrollbar {
+  overflow: hidden;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: transparent;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.scroll-container {
+  height: 300vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.5s ease-in-out;
+}
+
+.full-screen {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.c1 {
+  background-color: aquamarine;
+}
+.c2 {
+  background-color: rgb(95, 95, 30);
+}
+.c3 {
+  background-color: forestgreen;
+}
+
+.component-boxes {
+  position: fixed;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  z-index: 111;
+}
+
+.component-box {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.component-box.active {
+  background-color: #ff5733;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This ensures the video covers the container */
+}
