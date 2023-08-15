@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React Scroll Navigation: Seamlessly navigate through content using this React project. Employing the power of React, along with the useState and useEffect hooks, this project offers an interactive scrolling experience. It features a dynamic navigation bar that responds to scroll events and provides smooth transitions between different components. By combining event listeners and smooth scrolling animations, users can effortlessly explore the content sections. The project showcases the utilization of React components, state management, and event handling to create an engaging and visually appealing scrolling interface
